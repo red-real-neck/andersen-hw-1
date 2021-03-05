@@ -4,9 +4,9 @@ let firstValue,
 function start() {
 
 
-    firstValue = +prompt('Введите делимое', '');
+    firstValue = +prompt('Введите первое значение', '');
     if (firstValue) {
-        secondValue = +prompt('Введите делитель', '');
+        secondValue = +prompt('Введите второе значение', '');
     } else {
         console.log('Некорректный ввод!');
         return;
